@@ -53,7 +53,7 @@ case class SimpleAgent(
       case (mc, nc, t) => payoffDiff / math.max(mc, nc) / t
     }
   
-  // STRATEGY CONVERSION - sadece payoff bazlı
+  // STRATEGY CONVERSION - payoff-based only
   def evaluateStrategyConversion(
     neighbors: List[Agent], 
     bestNeighborPayoff: Double,

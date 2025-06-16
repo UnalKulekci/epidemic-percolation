@@ -60,7 +60,7 @@ case class ContinuousWorld[A <: Agent](
 
   override def neighbors(pos: Position): List[A] = neighborCalculator(pos)(neighborType)
 
-  // FUNCTIONAL MOVEMENT SYSTEM - sadece sınır kısıtı; çarpışma çözümü step aşamasında ele alınır
+  // FUNCTIONAL MOVEMENT SYSTEM - only boundary constraint; collision resolution handled in step phase
   val movementCalculator: A => Position = agent =>
     agent.isMobile match {
       case true =>
@@ -90,35 +90,35 @@ case class ContinuousWorld[A <: Agent](
   // FUNCTIONAL SIMULATION STEP - Pure functional pipeline
   override def step: ContinuousWorld[A] = {
     /*
-     * 1) BÜTÜN AJANLARI HAREKET ETTİR – tentatif konumlar hesaplanır
-     * 2) ÇAKIŞMALARI ÇÖZ – aynı pozisyona birden fazla ajan gittiyse hepsi eski yerinde kalır
-     * 3) YENİ DÜNYADA KAZANÇLAR + STRATEJİ GÜNCELLEMESİ – payoffs yeni komşuluklara göre hesaplanır
+     * 1) MOVE ALL AGENTS - calculate tentative positions
+     * 2) RESOLVE COLLISIONS - if multiple agents move to same position, all stay in old positions
+     * 3) UPDATE PAYOFFS + STRATEGIES IN NEW WORLD - calculate payoffs based on new neighborhoods
      */
 
-    // 1) Tentatif hareketler
+    // 1) Tentative movements
     val tentative: List[(A, Position)] = agents.values.toList.map { agent =>
       val newPos = movementCalculator(agent)
       (agent, newPos)
     }
 
-    // 2) Çakışma çözümü – sert gövde (disk) çakışmalarını önle
+    // 2) Collision resolution - prevent hard disk overlaps
     val resolvedPairs: List[(Position, A)] = {
-      // Kümülatif olarak kabul edilen ajanları biriktir
+      // Accumulate accepted agents cumulatively
       tentative.foldLeft(List.empty[(Position, A)]) { (accepted, curr) =>
         val (agent, proposed) = curr
         val collides = accepted.exists { case (posOther, agentOther) =>
           proposed.distanceTo(posOther) < (agent.radius + agentOther.radius)
         }
         if (!collides) {
-          // yeni pozisyon kabul
+          // accept new position
           (proposed, agent.withPosition(proposed).asInstanceOf[A]) :: accepted
         } else {
-          // eski pozisyonda kal, yine çarpışma olmamasını kontrol et
+          // stay in old position, check again for collisions
           val fallbackPos = agent.position
           val collidesFallback = accepted.exists { case (posOther, agentOther) =>
             fallbackPos.distanceTo(posOther) < (agent.radius + agentOther.radius)
           }
-          val finalPos = if (collidesFallback) proposed else fallbackPos // nadiren iki eski agent çakışabilir
+          val finalPos = if (collidesFallback) proposed else fallbackPos // rarely two old agents might overlap
           (finalPos, agent.withPosition(finalPos).asInstanceOf[A]) :: accepted
         }
       }
@@ -126,7 +126,7 @@ case class ContinuousWorld[A <: Agent](
      
     val afterMoveAgents: Map[Position, A] = resolvedPairs.toMap
 
-    // 3) Yeni dünyayı oluştur ve payoffs+strateji güncelle
+    // 3) Create new world and update payoffs+strategies
     val worldAfterMove: ContinuousWorld[A] = this.copy(agents = afterMoveAgents)
 
     val payoffs = PayoffMatrix.computeAllPayoffs(worldAfterMove)

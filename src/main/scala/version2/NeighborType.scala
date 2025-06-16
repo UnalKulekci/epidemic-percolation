@@ -1,7 +1,7 @@
 package version2
 
 /**
- * Basit komşuluk modeli - sadece radius tabanlı etkileşim
+ * Simple neighborhood model - radius-based interaction only
  */
 sealed trait NeighborType {
   def getRadius: Double
@@ -14,7 +14,7 @@ sealed trait NeighborType {
 }
 
 /**
- * Radius tabanlı komşuluk
+ * Radius-based neighborhood
  */
 case class RadiusNeighborhood(radius: Double) extends NeighborType {
   override def getRadius: Double = radius

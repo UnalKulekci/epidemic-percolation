@@ -8,33 +8,33 @@ import scala.collection.parallel.CollectionConverters._
 /**
  * PHASE-DIAGRAM SIMULATION RUNNER
  * --------------------------------
- * Federal Office for Health için parametre taraması:
- *   - Başlangıç defector oranı (0.1 - 0.9)
- *   - Temptation değeri (1.1 - 1.5)
- *   - Ajan yoğunluğu (10 - 100)
- * Her kombinasyon için ölçülen metrikler:
- *   – avgCompliance : Son adım uyum oranı
- *   – defectorPercolationProb : Uyumsuz kümelerin perkolasyon olasılığı
- *   – geometricPercolationProb : Tüm ajanların oluşturduğu ağın perkolasyonu
- *   – avgLargestClusterFrac : En büyük uyumsuz kümenin büyüklüğü / N
+ * Parameter sweep for Federal Office for Health:
+ *   - Initial defector ratio (0.1 - 0.9)
+ *   - Temptation value (1.1 - 1.5)
+ *   - Agent density (10 - 100)
+ * Metrics measured for each combination:
+ *   – avgCompliance : Final step compliance rate
+ *   – defectorPercolationProb : Percolation probability of defector clusters
+ *   – geometricPercolationProb : Percolation of the entire agent network
+ *   – avgLargestClusterFrac : Size of largest defector cluster / N
  */
 object SimulationRunner {
 
-  // ----------------- Genel Ayarlar -----------------
+  // ----------------- General Settings -----------------
   val worldSize: Double = 10.0
   val steps: Int = 500
   val runsPerSetting: Int = 20
 
-  // ----------------- Tarama Parametreleri -----------------
+  // ----------------- Sweep Parameters -----------------
   val defectorRatios: List[Double] = (1 to 9).map(_ / 10.0).toList
   val temptationValues: List[Double] = List(1.1, 1.3, 1.5, 1.7, 2.0)
   val agentCounts: List[Int] = (10 to 100 by 10).toList
 
-  // ----------------- Fiziksel Parametreler -----------------
+  // ----------------- Physical Parameters -----------------
   val exclusionRadius: Double = 0.5
   val interactionRadius: Double = 2.0
 
-  // ----------------- Parametre ve Metrik Sınıfları -----------------
+  // ----------------- Parameter and Metric Classes -----------------
   case class SimulationParams(
     agentCount: Int,
     defectorRatio: Double,
@@ -57,27 +57,27 @@ object SimulationRunner {
     avgLargestClusterFrac: Double
   )
 
-  // ----------------- Ana Program -----------------
+  // ----------------- Main Program -----------------
   def main(args: Array[String]): Unit = {
-    // Tüm parametre kombinasyonlarını oluştur
+    // Generate all parameter combinations
     val allParams = for {
       n <- agentCounts
       ratio <- defectorRatios
       t <- temptationValues
     } yield SimulationParams(n, ratio, t)
 
-    println(s"Toplam ${allParams.size} parametre kombinasyonu test edilecek...")
+    println(s"Testing ${allParams.size} parameter combinations...")
 
-    // Paralel parametre taraması
+    // Parallel parameter sweep
     val results = allParams.par.map(runParameterSetting).toList
       .sortBy(m => (m.params.agentCount, m.params.defectorRatio, m.params.temptation))
 
     writeCsv("phase_diagram_results.csv", results)
     writeJson("phase_diagram_results.json", results)
-    println("Sonuçlar CSV ve JSON dosyalarına kaydedildi.")
+    println("Results have been saved to CSV and JSON files.")
   }
 
-  // ----------------- Tek Parametre Seti Simülasyonu -----------------
+  // ----------------- Single Parameter Set Simulation -----------------
   private def runParameterSetting(params: SimulationParams): SettingMetrics = {
     val metricsPerRun = (1 to runsPerSetting).toList.map { runIdx =>
       val random = new Random(System.nanoTime() + runIdx)
@@ -96,7 +96,7 @@ object SimulationRunner {
     aggregateMetrics(params, metricsPerRun)
   }
 
-  // ----------------- Dünya Oluşturucu -----------------
+  // ----------------- World Creator -----------------
   private def createWorld(params: SimulationParams, rnd: Random): ContinuousWorld[SimpleAgent] = {
     val agents = (1 to params.agentCount).map { id =>
       val pos = Position(rnd.nextDouble() * worldSize, rnd.nextDouble() * worldSize)
@@ -119,7 +119,7 @@ object SimulationRunner {
     )
   }
 
-  // ----------------- Metrik Hesaplayıcı -----------------
+  // ----------------- Metric Calculator -----------------
   private def aggregateMetrics(params: SimulationParams, runs: List[RunMetrics]): SettingMetrics = {
     val n = runs.size.toDouble
     SettingMetrics(
@@ -132,7 +132,7 @@ object SimulationRunner {
     )
   }
 
-  // ----------------- CSV Yazıcı -----------------
+  // ----------------- CSV Writer -----------------
   private def writeCsv(path: String, results: List[SettingMetrics]): Unit = {
     val header = "agentCount,defectorRatio,temptation,density,avgCompliance,defectorPercolationProb,geometricPercolationProb,avgLargestClusterFrac"
     val lines = results.map { r =>
@@ -156,7 +156,7 @@ object SimulationRunner {
     } finally writer.close()
   }
 
-  // ----------------- JSON Yazıcı -----------------
+  // ----------------- JSON Writer -----------------
   private def writeJson(path: String, results: List[SettingMetrics]): Unit = {
     val header = String.format(Locale.US,
       """{"world_size": %.1f, "steps": %d, "runs_per_setting": %d, "results": [""",

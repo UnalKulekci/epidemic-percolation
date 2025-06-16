@@ -4,7 +4,7 @@ import scala.annotation.tailrec
 
 /**
  * FUNCTIONAL PERCOLATION ANALYZER
- * Gerçek percolation tespiti: Defector kümelerin boundary-to-boundary connection
+ * Real percolation detection: Boundary-to-boundary connection of defector clusters
  * Pure functional approach with pattern matching and tail recursion
  */
 object PercolationAnalyzer {
@@ -243,8 +243,8 @@ object PercolationAnalyzer {
     }
   
   /**
-   * GEOMETRIC (STRATEJİDEN BAĞIMSIZ) PERCOLATION KONTROLÜ
-   * Dünya içindeki TÜM ajan pozisyonları kullanılır.
+   * GEOMETRIC (STRATEGY-INDEPENDENT) PERCOLATION CHECK
+   * Uses ALL agent positions in the world.
    */
   def geometricPercolates[A <: Agent](world: ContinuousWorld[A]): Boolean = {
     val allPositions = world.agents.keys.toList

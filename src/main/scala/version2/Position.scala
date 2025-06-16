@@ -74,13 +74,13 @@ object PositionOps {
   ): List[List[Position]] = positions match {
     case Nil => acc
     case head :: tail =>
-      // BFS ile transitif komşuluk genişlet
+      // Expand transitive neighborhood with BFS
       val (cluster, remaining) = bfsExtractComponent(head, tail, radius)
       findClusters(remaining, radius, cluster :: acc)
   }
   
   /**
-   * Bir başlangıç noktası için transitif komşulukla tüm bağlı bileşeni çıkartır.
+   * Extracts all connected components with transitive neighborhood from a starting point.
    */
   private def bfsExtractComponent(
     start: Position,

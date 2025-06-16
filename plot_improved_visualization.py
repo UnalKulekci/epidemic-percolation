@@ -6,19 +6,19 @@ import seaborn as sns
 from pathlib import Path
 from scipy.ndimage import gaussian_filter1d
 
-# Çıktı klasörü oluştur
+# Create output directory
 output_dir = Path("improved_visualizations")
 output_dir.mkdir(exist_ok=True)
 
-# Veriyi oku
+# Read data
 df = pd.read_csv('phase_diagram_results.csv')
 
 def plot_subplots_by_groups(metric, title, t_value=1.7):
-    """Defektör oranlarını gruplara ayırarak subplot'lar oluştur"""
-    # Veriyi filtrele
+    """Create subplots by grouping defector ratios"""
+    # Filter data
     data = df[df['temptation'] == t_value]
     
-    # Defektör oranlarını grupla
+    # Group defector ratios
     low = [0.1, 0.2, 0.3]
     mid = [0.4, 0.5, 0.6]
     high = [0.7, 0.8, 0.9]
@@ -37,7 +37,7 @@ def plot_subplots_by_groups(metric, title, t_value=1.7):
             ax.plot(x, y_smooth, '-', label=f'Ratio = {ratio}')
             ax.plot(x, y, 'o', alpha=0.5)
             
-            # 0.5 eşiği
+            # 0.5 threshold
             if metric.endswith('Prob'):
                 thresh_idx = np.where(y_smooth >= 0.5)[0]
                 if len(thresh_idx) > 0:
@@ -54,8 +54,8 @@ def plot_subplots_by_groups(metric, title, t_value=1.7):
     plt.close()
 
 def plot_heatmap(metric, title, t_value=1.7):
-    """Isı haritası görselleştirmesi"""
-    # Veriyi pivot table'a dönüştür
+    """Create heatmap visualization"""
+    # Convert data to pivot table
     data = df[df['temptation'] == t_value]
     pivot = data.pivot(
         index='defectorRatio',
@@ -75,15 +75,15 @@ def plot_heatmap(metric, title, t_value=1.7):
     plt.close()
 
 def plot_3d_surface(metric, title, t_value=1.7):
-    """3D yüzey grafiği"""
+    """Create 3D surface plot"""
     data = df[df['temptation'] == t_value]
     
-    # Mesh grid oluştur
+    # Create mesh grid
     X = data['density'].unique()
     Y = data['defectorRatio'].unique()
     X, Y = np.meshgrid(X, Y)
     
-    # Z değerlerini hesapla
+    # Calculate Z values
     pivot = data.pivot(
         index='defectorRatio',
         columns='density',
@@ -95,26 +95,26 @@ def plot_3d_surface(metric, title, t_value=1.7):
     fig = plt.figure(figsize=(12, 8))
     ax = fig.add_subplot(111, projection='3d')
     
-    # Yüzeyi çiz
+    # Plot surface
     surf = ax.plot_surface(X, Y, Z, cmap='viridis',
                           linewidth=0, antialiased=True)
     
-    # Konturları ekle
+    # Add contours
     ax.contour(X, Y, Z, zdir='z', offset=Z.min(), cmap='viridis')
     
-    # Görsel ayarlar
+    # Visual settings
     ax.set_xlabel('Density (N/area)')
     ax.set_ylabel('Defector Ratio')
     ax.set_zlabel(metric)
     ax.set_title(f'{title}\nT={t_value}')
     
-    # Colorbar ekle
+    # Add colorbar
     fig.colorbar(surf, ax=ax, shrink=0.5, aspect=5)
     
     plt.savefig(output_dir / f'surface3d_{metric}_T{t_value}.png', dpi=300, bbox_inches='tight')
     plt.close()
 
-# Metrikleri analiz et
+# Analyze metrics
 metrics = {
     'geometricPercolationProb': 'Geometric Percolation Probability',
     'defectorPercolationProb': 'Defector Percolation Probability',
@@ -122,17 +122,17 @@ metrics = {
     'avgCompliance': 'Final Compliance Rate'
 }
 
-# Her metrik için üç farklı görselleştirme
+# Create three different visualizations for each metric
 for metric, title in metrics.items():
     print(f"\nCreating visualizations for {title}...")
     
-    # 1. Gruplu subplot'lar
+    # 1. Grouped subplots
     plot_subplots_by_groups(metric, title)
     
-    # 2. Isı haritası
+    # 2. Heatmap
     plot_heatmap(metric, title)
     
-    # 3. 3D yüzey
+    # 3. 3D surface
     plot_3d_surface(metric, title)
 
-print("\nTüm görselleştirmeler 'improved_visualizations' klasörüne kaydedildi.") 
+print("\nAll visualizations have been saved to 'improved_visualizations' directory.") 
