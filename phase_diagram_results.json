@@ -1,0 +1,4500 @@
+{"world_size": 10.0, "steps": 500, "runs_per_setting": 20, "results": [{
+  "agent_count": 10,
+  "defector_ratio": 0.10,
+  "temptation": 1.10,
+  "density": 0.1000,
+  "avg_compliance": 0.8850,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0800
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.10,
+  "temptation": 1.30,
+  "density": 0.1000,
+  "avg_compliance": 0.8800,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0750
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.10,
+  "temptation": 1.50,
+  "density": 0.1000,
+  "avg_compliance": 0.8650,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0900
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.10,
+  "temptation": 1.70,
+  "density": 0.1000,
+  "avg_compliance": 0.9100,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0650
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.10,
+  "temptation": 2.00,
+  "density": 0.1000,
+  "avg_compliance": 0.9150,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0600
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.20,
+  "temptation": 1.10,
+  "density": 0.1000,
+  "avg_compliance": 0.9050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0800
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.20,
+  "temptation": 1.30,
+  "density": 0.1000,
+  "avg_compliance": 0.8050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1000
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.20,
+  "temptation": 1.50,
+  "density": 0.1000,
+  "avg_compliance": 0.7900,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1050
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.20,
+  "temptation": 1.70,
+  "density": 0.1000,
+  "avg_compliance": 0.8150,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0950
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.20,
+  "temptation": 2.00,
+  "density": 0.1000,
+  "avg_compliance": 0.8000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1000
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.30,
+  "temptation": 1.10,
+  "density": 0.1000,
+  "avg_compliance": 0.6550,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1600
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.30,
+  "temptation": 1.30,
+  "density": 0.1000,
+  "avg_compliance": 0.7150,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1250
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.30,
+  "temptation": 1.50,
+  "density": 0.1000,
+  "avg_compliance": 0.7150,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1350
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.30,
+  "temptation": 1.70,
+  "density": 0.1000,
+  "avg_compliance": 0.6900,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1250
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.30,
+  "temptation": 2.00,
+  "density": 0.1000,
+  "avg_compliance": 0.6450,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1550
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.40,
+  "temptation": 1.10,
+  "density": 0.1000,
+  "avg_compliance": 0.6500,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1550
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.40,
+  "temptation": 1.30,
+  "density": 0.1000,
+  "avg_compliance": 0.5500,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1900
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.40,
+  "temptation": 1.50,
+  "density": 0.1000,
+  "avg_compliance": 0.6050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1550
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.40,
+  "temptation": 1.70,
+  "density": 0.1000,
+  "avg_compliance": 0.5450,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1700
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.40,
+  "temptation": 2.00,
+  "density": 0.1000,
+  "avg_compliance": 0.6150,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1650
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.50,
+  "temptation": 1.10,
+  "density": 0.1000,
+  "avg_compliance": 0.4650,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2100
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.50,
+  "temptation": 1.30,
+  "density": 0.1000,
+  "avg_compliance": 0.4950,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2000
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.50,
+  "temptation": 1.50,
+  "density": 0.1000,
+  "avg_compliance": 0.5200,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1700
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.50,
+  "temptation": 1.70,
+  "density": 0.1000,
+  "avg_compliance": 0.5000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1900
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.50,
+  "temptation": 2.00,
+  "density": 0.1000,
+  "avg_compliance": 0.5050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1900
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.60,
+  "temptation": 1.10,
+  "density": 0.1000,
+  "avg_compliance": 0.3800,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2000
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.60,
+  "temptation": 1.30,
+  "density": 0.1000,
+  "avg_compliance": 0.3800,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2150
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.60,
+  "temptation": 1.50,
+  "density": 0.1000,
+  "avg_compliance": 0.3750,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2550
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.60,
+  "temptation": 1.70,
+  "density": 0.1000,
+  "avg_compliance": 0.4400,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2050
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.60,
+  "temptation": 2.00,
+  "density": 0.1000,
+  "avg_compliance": 0.3350,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2500
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.70,
+  "temptation": 1.10,
+  "density": 0.1000,
+  "avg_compliance": 0.2800,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2650
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.70,
+  "temptation": 1.30,
+  "density": 0.1000,
+  "avg_compliance": 0.3150,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2700
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.70,
+  "temptation": 1.50,
+  "density": 0.1000,
+  "avg_compliance": 0.3150,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2650
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.70,
+  "temptation": 1.70,
+  "density": 0.1000,
+  "avg_compliance": 0.2900,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2400
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.70,
+  "temptation": 2.00,
+  "density": 0.1000,
+  "avg_compliance": 0.3100,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2200
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.80,
+  "temptation": 1.10,
+  "density": 0.1000,
+  "avg_compliance": 0.2450,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2550
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.80,
+  "temptation": 1.30,
+  "density": 0.1000,
+  "avg_compliance": 0.2000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2850
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.80,
+  "temptation": 1.50,
+  "density": 0.1000,
+  "avg_compliance": 0.1950,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2800
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.80,
+  "temptation": 1.70,
+  "density": 0.1000,
+  "avg_compliance": 0.2350,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2400
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.80,
+  "temptation": 2.00,
+  "density": 0.1000,
+  "avg_compliance": 0.2050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3150
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.90,
+  "temptation": 1.10,
+  "density": 0.1000,
+  "avg_compliance": 0.1200,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3450
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.90,
+  "temptation": 1.30,
+  "density": 0.1000,
+  "avg_compliance": 0.1250,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3050
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.90,
+  "temptation": 1.50,
+  "density": 0.1000,
+  "avg_compliance": 0.1000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3350
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.90,
+  "temptation": 1.70,
+  "density": 0.1000,
+  "avg_compliance": 0.0900,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2950
+},
+{
+  "agent_count": 10,
+  "defector_ratio": 0.90,
+  "temptation": 2.00,
+  "density": 0.1000,
+  "avg_compliance": 0.1000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3000
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.10,
+  "temptation": 1.10,
+  "density": 0.2000,
+  "avg_compliance": 0.8950,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0400
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.10,
+  "temptation": 1.30,
+  "density": 0.2000,
+  "avg_compliance": 0.9050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0475
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.10,
+  "temptation": 1.50,
+  "density": 0.2000,
+  "avg_compliance": 0.8775,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0550
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.10,
+  "temptation": 1.70,
+  "density": 0.2000,
+  "avg_compliance": 0.8800,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0575
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.10,
+  "temptation": 2.00,
+  "density": 0.2000,
+  "avg_compliance": 0.9200,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0525
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.20,
+  "temptation": 1.10,
+  "density": 0.2000,
+  "avg_compliance": 0.7800,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0875
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.20,
+  "temptation": 1.30,
+  "density": 0.2000,
+  "avg_compliance": 0.8200,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0825
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.20,
+  "temptation": 1.50,
+  "density": 0.2000,
+  "avg_compliance": 0.8275,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0850
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.20,
+  "temptation": 1.70,
+  "density": 0.2000,
+  "avg_compliance": 0.7850,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1000
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.20,
+  "temptation": 2.00,
+  "density": 0.2000,
+  "avg_compliance": 0.8250,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0700
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.30,
+  "temptation": 1.10,
+  "density": 0.2000,
+  "avg_compliance": 0.6825,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1225
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.30,
+  "temptation": 1.30,
+  "density": 0.2000,
+  "avg_compliance": 0.6750,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1100
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.30,
+  "temptation": 1.50,
+  "density": 0.2000,
+  "avg_compliance": 0.7225,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0925
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.30,
+  "temptation": 1.70,
+  "density": 0.2000,
+  "avg_compliance": 0.6800,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1250
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.30,
+  "temptation": 2.00,
+  "density": 0.2000,
+  "avg_compliance": 0.6600,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1250
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.40,
+  "temptation": 1.10,
+  "density": 0.2000,
+  "avg_compliance": 0.6275,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1450
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.40,
+  "temptation": 1.30,
+  "density": 0.2000,
+  "avg_compliance": 0.6075,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1350
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.40,
+  "temptation": 1.50,
+  "density": 0.2000,
+  "avg_compliance": 0.5875,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1300
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.40,
+  "temptation": 1.70,
+  "density": 0.2000,
+  "avg_compliance": 0.5475,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1475
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.40,
+  "temptation": 2.00,
+  "density": 0.2000,
+  "avg_compliance": 0.5800,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1400
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.50,
+  "temptation": 1.10,
+  "density": 0.2000,
+  "avg_compliance": 0.4800,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1950
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.50,
+  "temptation": 1.30,
+  "density": 0.2000,
+  "avg_compliance": 0.5125,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1575
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.50,
+  "temptation": 1.50,
+  "density": 0.2000,
+  "avg_compliance": 0.5200,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1425
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.50,
+  "temptation": 1.70,
+  "density": 0.2000,
+  "avg_compliance": 0.5000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1775
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.50,
+  "temptation": 2.00,
+  "density": 0.2000,
+  "avg_compliance": 0.4850,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1650
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.60,
+  "temptation": 1.10,
+  "density": 0.2000,
+  "avg_compliance": 0.3950,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1900
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.60,
+  "temptation": 1.30,
+  "density": 0.2000,
+  "avg_compliance": 0.3900,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.2100
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.60,
+  "temptation": 1.50,
+  "density": 0.2000,
+  "avg_compliance": 0.3975,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2175
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.60,
+  "temptation": 1.70,
+  "density": 0.2000,
+  "avg_compliance": 0.4200,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1975
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.60,
+  "temptation": 2.00,
+  "density": 0.2000,
+  "avg_compliance": 0.4175,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1950
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.70,
+  "temptation": 1.10,
+  "density": 0.2000,
+  "avg_compliance": 0.2550,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2950
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.70,
+  "temptation": 1.30,
+  "density": 0.2000,
+  "avg_compliance": 0.3075,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2500
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.70,
+  "temptation": 1.50,
+  "density": 0.2000,
+  "avg_compliance": 0.3225,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2800
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.70,
+  "temptation": 1.70,
+  "density": 0.2000,
+  "avg_compliance": 0.3000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2600
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.70,
+  "temptation": 2.00,
+  "density": 0.2000,
+  "avg_compliance": 0.3225,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2875
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.80,
+  "temptation": 1.10,
+  "density": 0.2000,
+  "avg_compliance": 0.2025,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2775
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.80,
+  "temptation": 1.30,
+  "density": 0.2000,
+  "avg_compliance": 0.2000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2850
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.80,
+  "temptation": 1.50,
+  "density": 0.2000,
+  "avg_compliance": 0.2050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3450
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.80,
+  "temptation": 1.70,
+  "density": 0.2000,
+  "avg_compliance": 0.2000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3050
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.80,
+  "temptation": 2.00,
+  "density": 0.2000,
+  "avg_compliance": 0.1850,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3225
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.90,
+  "temptation": 1.10,
+  "density": 0.2000,
+  "avg_compliance": 0.0675,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.4000
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.90,
+  "temptation": 1.30,
+  "density": 0.2000,
+  "avg_compliance": 0.1075,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3525
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.90,
+  "temptation": 1.50,
+  "density": 0.2000,
+  "avg_compliance": 0.0850,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3575
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.90,
+  "temptation": 1.70,
+  "density": 0.2000,
+  "avg_compliance": 0.0825,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.4125
+},
+{
+  "agent_count": 20,
+  "defector_ratio": 0.90,
+  "temptation": 2.00,
+  "density": 0.2000,
+  "avg_compliance": 0.1175,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3200
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.10,
+  "temptation": 1.10,
+  "density": 0.3000,
+  "avg_compliance": 0.8967,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0400
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.10,
+  "temptation": 1.30,
+  "density": 0.3000,
+  "avg_compliance": 0.9033,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0383
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.10,
+  "temptation": 1.50,
+  "density": 0.3000,
+  "avg_compliance": 0.9150,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0433
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.10,
+  "temptation": 1.70,
+  "density": 0.3000,
+  "avg_compliance": 0.9050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0417
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.10,
+  "temptation": 2.00,
+  "density": 0.3000,
+  "avg_compliance": 0.9117,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0400
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.20,
+  "temptation": 1.10,
+  "density": 0.3000,
+  "avg_compliance": 0.8250,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0633
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.20,
+  "temptation": 1.30,
+  "density": 0.3000,
+  "avg_compliance": 0.7850,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.0783
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.20,
+  "temptation": 1.50,
+  "density": 0.3000,
+  "avg_compliance": 0.7850,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.0883
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.20,
+  "temptation": 1.70,
+  "density": 0.3000,
+  "avg_compliance": 0.8167,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0633
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.20,
+  "temptation": 2.00,
+  "density": 0.3000,
+  "avg_compliance": 0.7967,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0683
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.30,
+  "temptation": 1.10,
+  "density": 0.3000,
+  "avg_compliance": 0.6900,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1050
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.30,
+  "temptation": 1.30,
+  "density": 0.3000,
+  "avg_compliance": 0.7083,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1067
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.30,
+  "temptation": 1.50,
+  "density": 0.3000,
+  "avg_compliance": 0.6983,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1083
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.30,
+  "temptation": 1.70,
+  "density": 0.3000,
+  "avg_compliance": 0.6750,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1117
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.30,
+  "temptation": 2.00,
+  "density": 0.3000,
+  "avg_compliance": 0.7000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1083
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.40,
+  "temptation": 1.10,
+  "density": 0.3000,
+  "avg_compliance": 0.6217,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1417
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.40,
+  "temptation": 1.30,
+  "density": 0.3000,
+  "avg_compliance": 0.5717,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1567
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.40,
+  "temptation": 1.50,
+  "density": 0.3000,
+  "avg_compliance": 0.6050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.1483
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.40,
+  "temptation": 1.70,
+  "density": 0.3000,
+  "avg_compliance": 0.5883,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1517
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.40,
+  "temptation": 2.00,
+  "density": 0.3000,
+  "avg_compliance": 0.5800,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.1483
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.50,
+  "temptation": 1.10,
+  "density": 0.3000,
+  "avg_compliance": 0.5183,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1583
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.50,
+  "temptation": 1.30,
+  "density": 0.3000,
+  "avg_compliance": 0.4883,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.1900
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.50,
+  "temptation": 1.50,
+  "density": 0.3000,
+  "avg_compliance": 0.5100,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1650
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.50,
+  "temptation": 1.70,
+  "density": 0.3000,
+  "avg_compliance": 0.4883,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2100
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.50,
+  "temptation": 2.00,
+  "density": 0.3000,
+  "avg_compliance": 0.5067,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2183
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.60,
+  "temptation": 1.10,
+  "density": 0.3000,
+  "avg_compliance": 0.3717,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2717
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.60,
+  "temptation": 1.30,
+  "density": 0.3000,
+  "avg_compliance": 0.4083,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.2567
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.60,
+  "temptation": 1.50,
+  "density": 0.3000,
+  "avg_compliance": 0.4067,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.2267
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.60,
+  "temptation": 1.70,
+  "density": 0.3000,
+  "avg_compliance": 0.4417,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1933
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.60,
+  "temptation": 2.00,
+  "density": 0.3000,
+  "avg_compliance": 0.4050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2117
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.70,
+  "temptation": 1.10,
+  "density": 0.3000,
+  "avg_compliance": 0.3000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.3233
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.70,
+  "temptation": 1.30,
+  "density": 0.3000,
+  "avg_compliance": 0.3067,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3350
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.70,
+  "temptation": 1.50,
+  "density": 0.3000,
+  "avg_compliance": 0.3167,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2750
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.70,
+  "temptation": 1.70,
+  "density": 0.3000,
+  "avg_compliance": 0.3500,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2417
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.70,
+  "temptation": 2.00,
+  "density": 0.3000,
+  "avg_compliance": 0.2667,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3150
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.80,
+  "temptation": 1.10,
+  "density": 0.3000,
+  "avg_compliance": 0.1867,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3833
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.80,
+  "temptation": 1.30,
+  "density": 0.3000,
+  "avg_compliance": 0.2050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3933
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.80,
+  "temptation": 1.50,
+  "density": 0.3000,
+  "avg_compliance": 0.2050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.4533
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.80,
+  "temptation": 1.70,
+  "density": 0.3000,
+  "avg_compliance": 0.2183,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.3983
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.80,
+  "temptation": 2.00,
+  "density": 0.3000,
+  "avg_compliance": 0.2300,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3283
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.90,
+  "temptation": 1.10,
+  "density": 0.3000,
+  "avg_compliance": 0.1200,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.4750
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.90,
+  "temptation": 1.30,
+  "density": 0.3000,
+  "avg_compliance": 0.1100,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.5117
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.90,
+  "temptation": 1.50,
+  "density": 0.3000,
+  "avg_compliance": 0.1083,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.4667
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.90,
+  "temptation": 1.70,
+  "density": 0.3000,
+  "avg_compliance": 0.0950,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.4733
+},
+{
+  "agent_count": 30,
+  "defector_ratio": 0.90,
+  "temptation": 2.00,
+  "density": 0.3000,
+  "avg_compliance": 0.0850,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.4967
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.10,
+  "temptation": 1.10,
+  "density": 0.4000,
+  "avg_compliance": 0.9125,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.0325
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.10,
+  "temptation": 1.30,
+  "density": 0.4000,
+  "avg_compliance": 0.9025,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.0375
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.10,
+  "temptation": 1.50,
+  "density": 0.4000,
+  "avg_compliance": 0.9062,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0325
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.10,
+  "temptation": 1.70,
+  "density": 0.4000,
+  "avg_compliance": 0.8962,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.0413
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.10,
+  "temptation": 2.00,
+  "density": 0.4000,
+  "avg_compliance": 0.8963,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.0425
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.20,
+  "temptation": 1.10,
+  "density": 0.4000,
+  "avg_compliance": 0.8025,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.0663
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.20,
+  "temptation": 1.30,
+  "density": 0.4000,
+  "avg_compliance": 0.7938,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.0813
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.20,
+  "temptation": 1.50,
+  "density": 0.4000,
+  "avg_compliance": 0.7888,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0813
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.20,
+  "temptation": 1.70,
+  "density": 0.4000,
+  "avg_compliance": 0.8100,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0663
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.20,
+  "temptation": 2.00,
+  "density": 0.4000,
+  "avg_compliance": 0.8100,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.0663
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.30,
+  "temptation": 1.10,
+  "density": 0.4000,
+  "avg_compliance": 0.7062,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.1050
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.30,
+  "temptation": 1.30,
+  "density": 0.4000,
+  "avg_compliance": 0.6925,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.1113
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.30,
+  "temptation": 1.50,
+  "density": 0.4000,
+  "avg_compliance": 0.7063,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.1088
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.30,
+  "temptation": 1.70,
+  "density": 0.4000,
+  "avg_compliance": 0.7038,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.1050
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.30,
+  "temptation": 2.00,
+  "density": 0.4000,
+  "avg_compliance": 0.7213,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.0963
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.40,
+  "temptation": 1.10,
+  "density": 0.4000,
+  "avg_compliance": 0.6000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.1525
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.40,
+  "temptation": 1.30,
+  "density": 0.4000,
+  "avg_compliance": 0.5825,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.1738
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.40,
+  "temptation": 1.50,
+  "density": 0.4000,
+  "avg_compliance": 0.6150,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.1688
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.40,
+  "temptation": 1.70,
+  "density": 0.4000,
+  "avg_compliance": 0.5838,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.1725
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.40,
+  "temptation": 2.00,
+  "density": 0.4000,
+  "avg_compliance": 0.6063,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.1413
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.50,
+  "temptation": 1.10,
+  "density": 0.4000,
+  "avg_compliance": 0.5037,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.2075
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.50,
+  "temptation": 1.30,
+  "density": 0.4000,
+  "avg_compliance": 0.5125,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.1900
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.50,
+  "temptation": 1.50,
+  "density": 0.4000,
+  "avg_compliance": 0.5325,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.2113
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.50,
+  "temptation": 1.70,
+  "density": 0.4000,
+  "avg_compliance": 0.5038,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.2075
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.50,
+  "temptation": 2.00,
+  "density": 0.4000,
+  "avg_compliance": 0.5025,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.2150
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.60,
+  "temptation": 1.10,
+  "density": 0.4000,
+  "avg_compliance": 0.3863,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.2650
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.60,
+  "temptation": 1.30,
+  "density": 0.4000,
+  "avg_compliance": 0.4050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.3163
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.60,
+  "temptation": 1.50,
+  "density": 0.4000,
+  "avg_compliance": 0.4100,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.3087
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.60,
+  "temptation": 1.70,
+  "density": 0.4000,
+  "avg_compliance": 0.4200,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2625
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.60,
+  "temptation": 2.00,
+  "density": 0.4000,
+  "avg_compliance": 0.4037,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.2788
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.70,
+  "temptation": 1.10,
+  "density": 0.4000,
+  "avg_compliance": 0.3038,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.3450
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.70,
+  "temptation": 1.30,
+  "density": 0.4000,
+  "avg_compliance": 0.2975,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.3613
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.70,
+  "temptation": 1.50,
+  "density": 0.4000,
+  "avg_compliance": 0.3000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.3762
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.70,
+  "temptation": 1.70,
+  "density": 0.4000,
+  "avg_compliance": 0.3063,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3963
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.70,
+  "temptation": 2.00,
+  "density": 0.4000,
+  "avg_compliance": 0.3087,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.4588
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.80,
+  "temptation": 1.10,
+  "density": 0.4000,
+  "avg_compliance": 0.1988,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.5000
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.80,
+  "temptation": 1.30,
+  "density": 0.4000,
+  "avg_compliance": 0.2025,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.4787
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.80,
+  "temptation": 1.50,
+  "density": 0.4000,
+  "avg_compliance": 0.2125,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.4912
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.80,
+  "temptation": 1.70,
+  "density": 0.4000,
+  "avg_compliance": 0.2213,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.5113
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.80,
+  "temptation": 2.00,
+  "density": 0.4000,
+  "avg_compliance": 0.1900,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.4800
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.90,
+  "temptation": 1.10,
+  "density": 0.4000,
+  "avg_compliance": 0.1013,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.5925
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.90,
+  "temptation": 1.30,
+  "density": 0.4000,
+  "avg_compliance": 0.0900,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.6188
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.90,
+  "temptation": 1.50,
+  "density": 0.4000,
+  "avg_compliance": 0.1200,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.6063
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.90,
+  "temptation": 1.70,
+  "density": 0.4000,
+  "avg_compliance": 0.1038,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.6163
+},
+{
+  "agent_count": 40,
+  "defector_ratio": 0.90,
+  "temptation": 2.00,
+  "density": 0.4000,
+  "avg_compliance": 0.0987,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.5900
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.10,
+  "temptation": 1.10,
+  "density": 0.5000,
+  "avg_compliance": 0.9050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.0310
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.10,
+  "temptation": 1.30,
+  "density": 0.5000,
+  "avg_compliance": 0.8920,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.0370
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.10,
+  "temptation": 1.50,
+  "density": 0.5000,
+  "avg_compliance": 0.9030,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.0340
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.10,
+  "temptation": 1.70,
+  "density": 0.5000,
+  "avg_compliance": 0.9230,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.0320
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.10,
+  "temptation": 2.00,
+  "density": 0.5000,
+  "avg_compliance": 0.9020,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.0430
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.20,
+  "temptation": 1.10,
+  "density": 0.5000,
+  "avg_compliance": 0.7940,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.0780
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.20,
+  "temptation": 1.30,
+  "density": 0.5000,
+  "avg_compliance": 0.8210,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.0680
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.20,
+  "temptation": 1.50,
+  "density": 0.5000,
+  "avg_compliance": 0.8410,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.0560
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.20,
+  "temptation": 1.70,
+  "density": 0.5000,
+  "avg_compliance": 0.8130,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.0600
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.20,
+  "temptation": 2.00,
+  "density": 0.5000,
+  "avg_compliance": 0.7930,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.0890
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.30,
+  "temptation": 1.10,
+  "density": 0.5000,
+  "avg_compliance": 0.7190,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.1110
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.30,
+  "temptation": 1.30,
+  "density": 0.5000,
+  "avg_compliance": 0.7030,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.1090
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.30,
+  "temptation": 1.50,
+  "density": 0.5000,
+  "avg_compliance": 0.6990,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.1020
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.30,
+  "temptation": 1.70,
+  "density": 0.5000,
+  "avg_compliance": 0.6950,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.1240
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.30,
+  "temptation": 2.00,
+  "density": 0.5000,
+  "avg_compliance": 0.7110,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.0920
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.40,
+  "temptation": 1.10,
+  "density": 0.5000,
+  "avg_compliance": 0.5950,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.1810
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.40,
+  "temptation": 1.30,
+  "density": 0.5000,
+  "avg_compliance": 0.6110,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.1850
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.40,
+  "temptation": 1.50,
+  "density": 0.5000,
+  "avg_compliance": 0.5990,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.1800
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.40,
+  "temptation": 1.70,
+  "density": 0.5000,
+  "avg_compliance": 0.6090,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.1600
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.40,
+  "temptation": 2.00,
+  "density": 0.5000,
+  "avg_compliance": 0.6270,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.1570
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.50,
+  "temptation": 1.10,
+  "density": 0.5000,
+  "avg_compliance": 0.5060,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.2340
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.50,
+  "temptation": 1.30,
+  "density": 0.5000,
+  "avg_compliance": 0.5070,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.2480
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.50,
+  "temptation": 1.50,
+  "density": 0.5000,
+  "avg_compliance": 0.5040,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.2450
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.50,
+  "temptation": 1.70,
+  "density": 0.5000,
+  "avg_compliance": 0.4860,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.2980
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.50,
+  "temptation": 2.00,
+  "density": 0.5000,
+  "avg_compliance": 0.4890,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.3140
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.60,
+  "temptation": 1.10,
+  "density": 0.5000,
+  "avg_compliance": 0.4080,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.3440
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.60,
+  "temptation": 1.30,
+  "density": 0.5000,
+  "avg_compliance": 0.4220,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.3990
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.60,
+  "temptation": 1.50,
+  "density": 0.5000,
+  "avg_compliance": 0.3880,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.3910
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.60,
+  "temptation": 1.70,
+  "density": 0.5000,
+  "avg_compliance": 0.4170,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0000,
+  "avg_largest_cluster_frac": 0.3120
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.60,
+  "temptation": 2.00,
+  "density": 0.5000,
+  "avg_compliance": 0.4120,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.3560
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.70,
+  "temptation": 1.10,
+  "density": 0.5000,
+  "avg_compliance": 0.3060,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.4520
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.70,
+  "temptation": 1.30,
+  "density": 0.5000,
+  "avg_compliance": 0.3060,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.4590
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.70,
+  "temptation": 1.50,
+  "density": 0.5000,
+  "avg_compliance": 0.2980,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.4770
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.70,
+  "temptation": 1.70,
+  "density": 0.5000,
+  "avg_compliance": 0.3130,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.4900
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.70,
+  "temptation": 2.00,
+  "density": 0.5000,
+  "avg_compliance": 0.2900,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.0500,
+  "avg_largest_cluster_frac": 0.5040
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.80,
+  "temptation": 1.10,
+  "density": 0.5000,
+  "avg_compliance": 0.1970,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.6320
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.80,
+  "temptation": 1.30,
+  "density": 0.5000,
+  "avg_compliance": 0.2040,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.6490
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.80,
+  "temptation": 1.50,
+  "density": 0.5000,
+  "avg_compliance": 0.2090,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1000,
+  "avg_largest_cluster_frac": 0.6080
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.80,
+  "temptation": 1.70,
+  "density": 0.5000,
+  "avg_compliance": 0.2160,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.5800
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.80,
+  "temptation": 2.00,
+  "density": 0.5000,
+  "avg_compliance": 0.1800,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.6280
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.90,
+  "temptation": 1.10,
+  "density": 0.5000,
+  "avg_compliance": 0.1180,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.7140
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.90,
+  "temptation": 1.30,
+  "density": 0.5000,
+  "avg_compliance": 0.0890,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.7720
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.90,
+  "temptation": 1.50,
+  "density": 0.5000,
+  "avg_compliance": 0.0910,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.7240
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.90,
+  "temptation": 1.70,
+  "density": 0.5000,
+  "avg_compliance": 0.0990,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.6780
+},
+{
+  "agent_count": 50,
+  "defector_ratio": 0.90,
+  "temptation": 2.00,
+  "density": 0.5000,
+  "avg_compliance": 0.1100,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.7550
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.10,
+  "temptation": 1.10,
+  "density": 0.6000,
+  "avg_compliance": 0.8967,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.0375
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.10,
+  "temptation": 1.30,
+  "density": 0.6000,
+  "avg_compliance": 0.9017,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.0350
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.10,
+  "temptation": 1.50,
+  "density": 0.6000,
+  "avg_compliance": 0.9083,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.0283
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.10,
+  "temptation": 1.70,
+  "density": 0.6000,
+  "avg_compliance": 0.8975,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.0317
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.10,
+  "temptation": 2.00,
+  "density": 0.6000,
+  "avg_compliance": 0.9058,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.0358
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.20,
+  "temptation": 1.10,
+  "density": 0.6000,
+  "avg_compliance": 0.7758,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.0767
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.20,
+  "temptation": 1.30,
+  "density": 0.6000,
+  "avg_compliance": 0.7958,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.0642
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.20,
+  "temptation": 1.50,
+  "density": 0.6000,
+  "avg_compliance": 0.8158,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.0667
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.20,
+  "temptation": 1.70,
+  "density": 0.6000,
+  "avg_compliance": 0.7958,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2000,
+  "avg_largest_cluster_frac": 0.0692
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.20,
+  "temptation": 2.00,
+  "density": 0.6000,
+  "avg_compliance": 0.8042,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.0692
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.30,
+  "temptation": 1.10,
+  "density": 0.6000,
+  "avg_compliance": 0.6933,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.1325
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.30,
+  "temptation": 1.30,
+  "density": 0.6000,
+  "avg_compliance": 0.6983,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.1042
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.30,
+  "temptation": 1.50,
+  "density": 0.6000,
+  "avg_compliance": 0.6842,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.1250
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.30,
+  "temptation": 1.70,
+  "density": 0.6000,
+  "avg_compliance": 0.6833,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.1258
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.30,
+  "temptation": 2.00,
+  "density": 0.6000,
+  "avg_compliance": 0.7100,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.1342
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.40,
+  "temptation": 1.10,
+  "density": 0.6000,
+  "avg_compliance": 0.6033,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.1983
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.40,
+  "temptation": 1.30,
+  "density": 0.6000,
+  "avg_compliance": 0.5950,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.1917
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.40,
+  "temptation": 1.50,
+  "density": 0.6000,
+  "avg_compliance": 0.5967,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.2075
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.40,
+  "temptation": 1.70,
+  "density": 0.6000,
+  "avg_compliance": 0.5967,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.1842
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.40,
+  "temptation": 2.00,
+  "density": 0.6000,
+  "avg_compliance": 0.5992,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.1875
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.50,
+  "temptation": 1.10,
+  "density": 0.6000,
+  "avg_compliance": 0.4950,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.2692
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.50,
+  "temptation": 1.30,
+  "density": 0.6000,
+  "avg_compliance": 0.5183,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.2517
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.50,
+  "temptation": 1.50,
+  "density": 0.6000,
+  "avg_compliance": 0.4817,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.3175
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.50,
+  "temptation": 1.70,
+  "density": 0.6000,
+  "avg_compliance": 0.5000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.2900
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.50,
+  "temptation": 2.00,
+  "density": 0.6000,
+  "avg_compliance": 0.5017,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.2992
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.60,
+  "temptation": 1.10,
+  "density": 0.6000,
+  "avg_compliance": 0.4017,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.4358
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.60,
+  "temptation": 1.30,
+  "density": 0.6000,
+  "avg_compliance": 0.3950,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.4308
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.60,
+  "temptation": 1.50,
+  "density": 0.6000,
+  "avg_compliance": 0.4025,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.4117
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.60,
+  "temptation": 1.70,
+  "density": 0.6000,
+  "avg_compliance": 0.3875,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.4483
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.60,
+  "temptation": 2.00,
+  "density": 0.6000,
+  "avg_compliance": 0.3783,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.4058
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.70,
+  "temptation": 1.10,
+  "density": 0.6000,
+  "avg_compliance": 0.3017,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.5700
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.70,
+  "temptation": 1.30,
+  "density": 0.6000,
+  "avg_compliance": 0.3133,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.5550
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.70,
+  "temptation": 1.50,
+  "density": 0.6000,
+  "avg_compliance": 0.3017,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.6275
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.70,
+  "temptation": 1.70,
+  "density": 0.6000,
+  "avg_compliance": 0.2875,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.5858
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.70,
+  "temptation": 2.00,
+  "density": 0.6000,
+  "avg_compliance": 0.2992,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.5333
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.80,
+  "temptation": 1.10,
+  "density": 0.6000,
+  "avg_compliance": 0.1900,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.6567
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.80,
+  "temptation": 1.30,
+  "density": 0.6000,
+  "avg_compliance": 0.1850,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.7092
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.80,
+  "temptation": 1.50,
+  "density": 0.6000,
+  "avg_compliance": 0.1958,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.7217
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.80,
+  "temptation": 1.70,
+  "density": 0.6000,
+  "avg_compliance": 0.1942,
+  "defector_percolation_prob": 0.3000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.7592
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.80,
+  "temptation": 2.00,
+  "density": 0.6000,
+  "avg_compliance": 0.1892,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.6592
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.90,
+  "temptation": 1.10,
+  "density": 0.6000,
+  "avg_compliance": 0.1025,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.8333
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.90,
+  "temptation": 1.30,
+  "density": 0.6000,
+  "avg_compliance": 0.1042,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.7975
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.90,
+  "temptation": 1.50,
+  "density": 0.6000,
+  "avg_compliance": 0.0825,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.1500,
+  "avg_largest_cluster_frac": 0.8100
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.90,
+  "temptation": 1.70,
+  "density": 0.6000,
+  "avg_compliance": 0.1100,
+  "defector_percolation_prob": 0.4000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.8308
+},
+{
+  "agent_count": 60,
+  "defector_ratio": 0.90,
+  "temptation": 2.00,
+  "density": 0.6000,
+  "avg_compliance": 0.0875,
+  "defector_percolation_prob": 0.3500,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.8575
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.10,
+  "temptation": 1.10,
+  "density": 0.7000,
+  "avg_compliance": 0.9107,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.0314
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.10,
+  "temptation": 1.30,
+  "density": 0.7000,
+  "avg_compliance": 0.9164,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.0293
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.10,
+  "temptation": 1.50,
+  "density": 0.7000,
+  "avg_compliance": 0.8936,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.0407
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.10,
+  "temptation": 1.70,
+  "density": 0.7000,
+  "avg_compliance": 0.8971,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.0386
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.10,
+  "temptation": 2.00,
+  "density": 0.7000,
+  "avg_compliance": 0.9121,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.0343
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.20,
+  "temptation": 1.10,
+  "density": 0.7000,
+  "avg_compliance": 0.7857,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.0771
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.20,
+  "temptation": 1.30,
+  "density": 0.7000,
+  "avg_compliance": 0.8093,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.0750
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.20,
+  "temptation": 1.50,
+  "density": 0.7000,
+  "avg_compliance": 0.7936,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.0929
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.20,
+  "temptation": 1.70,
+  "density": 0.7000,
+  "avg_compliance": 0.8129,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.0721
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.20,
+  "temptation": 2.00,
+  "density": 0.7000,
+  "avg_compliance": 0.8200,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.0721
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.30,
+  "temptation": 1.10,
+  "density": 0.7000,
+  "avg_compliance": 0.7043,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.1321
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.30,
+  "temptation": 1.30,
+  "density": 0.7000,
+  "avg_compliance": 0.6907,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.1100
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.30,
+  "temptation": 1.50,
+  "density": 0.7000,
+  "avg_compliance": 0.6893,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.1236
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.30,
+  "temptation": 1.70,
+  "density": 0.7000,
+  "avg_compliance": 0.6957,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.1243
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.30,
+  "temptation": 2.00,
+  "density": 0.7000,
+  "avg_compliance": 0.7014,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.1279
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.40,
+  "temptation": 1.10,
+  "density": 0.7000,
+  "avg_compliance": 0.6100,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.2136
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.40,
+  "temptation": 1.30,
+  "density": 0.7000,
+  "avg_compliance": 0.5850,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.2736
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.40,
+  "temptation": 1.50,
+  "density": 0.7000,
+  "avg_compliance": 0.6014,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.2129
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.40,
+  "temptation": 1.70,
+  "density": 0.7000,
+  "avg_compliance": 0.5921,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.2543
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.40,
+  "temptation": 2.00,
+  "density": 0.7000,
+  "avg_compliance": 0.6057,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.2400
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.50,
+  "temptation": 1.10,
+  "density": 0.7000,
+  "avg_compliance": 0.5021,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.3121
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.50,
+  "temptation": 1.30,
+  "density": 0.7000,
+  "avg_compliance": 0.5021,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.2693
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.50,
+  "temptation": 1.50,
+  "density": 0.7000,
+  "avg_compliance": 0.5121,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.3086
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.50,
+  "temptation": 1.70,
+  "density": 0.7000,
+  "avg_compliance": 0.5257,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.3243
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.50,
+  "temptation": 2.00,
+  "density": 0.7000,
+  "avg_compliance": 0.5043,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.3314
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.60,
+  "temptation": 1.10,
+  "density": 0.7000,
+  "avg_compliance": 0.4071,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.4614
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.60,
+  "temptation": 1.30,
+  "density": 0.7000,
+  "avg_compliance": 0.3986,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.4929
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.60,
+  "temptation": 1.50,
+  "density": 0.7000,
+  "avg_compliance": 0.3936,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.4879
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.60,
+  "temptation": 1.70,
+  "density": 0.7000,
+  "avg_compliance": 0.4000,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.4971
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.60,
+  "temptation": 2.00,
+  "density": 0.7000,
+  "avg_compliance": 0.4171,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.4257
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.70,
+  "temptation": 1.10,
+  "density": 0.7000,
+  "avg_compliance": 0.3021,
+  "defector_percolation_prob": 0.2000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.6236
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.70,
+  "temptation": 1.30,
+  "density": 0.7000,
+  "avg_compliance": 0.3029,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.5914
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.70,
+  "temptation": 1.50,
+  "density": 0.7000,
+  "avg_compliance": 0.3064,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.6150
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.70,
+  "temptation": 1.70,
+  "density": 0.7000,
+  "avg_compliance": 0.2814,
+  "defector_percolation_prob": 0.3500,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.6400
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.70,
+  "temptation": 2.00,
+  "density": 0.7000,
+  "avg_compliance": 0.3000,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.5821
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.80,
+  "temptation": 1.10,
+  "density": 0.7000,
+  "avg_compliance": 0.1864,
+  "defector_percolation_prob": 0.3500,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.7914
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.80,
+  "temptation": 1.30,
+  "density": 0.7000,
+  "avg_compliance": 0.2014,
+  "defector_percolation_prob": 0.2000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.7664
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.80,
+  "temptation": 1.50,
+  "density": 0.7000,
+  "avg_compliance": 0.1957,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.7771
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.80,
+  "temptation": 1.70,
+  "density": 0.7000,
+  "avg_compliance": 0.1721,
+  "defector_percolation_prob": 0.4000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.8050
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.80,
+  "temptation": 2.00,
+  "density": 0.7000,
+  "avg_compliance": 0.2007,
+  "defector_percolation_prob": 0.4000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.7357
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.90,
+  "temptation": 1.10,
+  "density": 0.7000,
+  "avg_compliance": 0.0893,
+  "defector_percolation_prob": 0.4500,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.8771
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.90,
+  "temptation": 1.30,
+  "density": 0.7000,
+  "avg_compliance": 0.0836,
+  "defector_percolation_prob": 0.4000,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.8907
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.90,
+  "temptation": 1.50,
+  "density": 0.7000,
+  "avg_compliance": 0.1121,
+  "defector_percolation_prob": 0.3500,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.8636
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.90,
+  "temptation": 1.70,
+  "density": 0.7000,
+  "avg_compliance": 0.0957,
+  "defector_percolation_prob": 0.5500,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.8879
+},
+{
+  "agent_count": 70,
+  "defector_ratio": 0.90,
+  "temptation": 2.00,
+  "density": 0.7000,
+  "avg_compliance": 0.0957,
+  "defector_percolation_prob": 0.4000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.8821
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.10,
+  "temptation": 1.10,
+  "density": 0.8000,
+  "avg_compliance": 0.9119,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.0363
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.10,
+  "temptation": 1.30,
+  "density": 0.8000,
+  "avg_compliance": 0.9081,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.0350
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.10,
+  "temptation": 1.50,
+  "density": 0.8000,
+  "avg_compliance": 0.8913,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.0344
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.10,
+  "temptation": 1.70,
+  "density": 0.8000,
+  "avg_compliance": 0.8938,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.0375
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.10,
+  "temptation": 2.00,
+  "density": 0.8000,
+  "avg_compliance": 0.8919,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.0369
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.20,
+  "temptation": 1.10,
+  "density": 0.8000,
+  "avg_compliance": 0.8038,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.0669
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.20,
+  "temptation": 1.30,
+  "density": 0.8000,
+  "avg_compliance": 0.7844,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.0856
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.20,
+  "temptation": 1.50,
+  "density": 0.8000,
+  "avg_compliance": 0.8069,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.0700
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.20,
+  "temptation": 1.70,
+  "density": 0.8000,
+  "avg_compliance": 0.8019,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.0744
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.20,
+  "temptation": 2.00,
+  "density": 0.8000,
+  "avg_compliance": 0.8000,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.0688
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.30,
+  "temptation": 1.10,
+  "density": 0.8000,
+  "avg_compliance": 0.6956,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.2500,
+  "avg_largest_cluster_frac": 0.1594
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.30,
+  "temptation": 1.30,
+  "density": 0.8000,
+  "avg_compliance": 0.6862,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.1625
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.30,
+  "temptation": 1.50,
+  "density": 0.8000,
+  "avg_compliance": 0.7106,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.1425
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.30,
+  "temptation": 1.70,
+  "density": 0.8000,
+  "avg_compliance": 0.7081,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.1381
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.30,
+  "temptation": 2.00,
+  "density": 0.8000,
+  "avg_compliance": 0.7050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.1269
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.40,
+  "temptation": 1.10,
+  "density": 0.8000,
+  "avg_compliance": 0.5994,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.2525
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.40,
+  "temptation": 1.30,
+  "density": 0.8000,
+  "avg_compliance": 0.6163,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.2569
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.40,
+  "temptation": 1.50,
+  "density": 0.8000,
+  "avg_compliance": 0.6025,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.2506
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.40,
+  "temptation": 1.70,
+  "density": 0.8000,
+  "avg_compliance": 0.6250,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.2319
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.40,
+  "temptation": 2.00,
+  "density": 0.8000,
+  "avg_compliance": 0.5781,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.2969
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.50,
+  "temptation": 1.10,
+  "density": 0.8000,
+  "avg_compliance": 0.5156,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.3500
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.50,
+  "temptation": 1.30,
+  "density": 0.8000,
+  "avg_compliance": 0.4975,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.3000,
+  "avg_largest_cluster_frac": 0.3544
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.50,
+  "temptation": 1.50,
+  "density": 0.8000,
+  "avg_compliance": 0.4925,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.3769
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.50,
+  "temptation": 1.70,
+  "density": 0.8000,
+  "avg_compliance": 0.5219,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.6500,
+  "avg_largest_cluster_frac": 0.3550
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.50,
+  "temptation": 2.00,
+  "density": 0.8000,
+  "avg_compliance": 0.4944,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.3850
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.60,
+  "temptation": 1.10,
+  "density": 0.8000,
+  "avg_compliance": 0.4006,
+  "defector_percolation_prob": 0.2000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.5600
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.60,
+  "temptation": 1.30,
+  "density": 0.8000,
+  "avg_compliance": 0.4200,
+  "defector_percolation_prob": 0.2000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.5050
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.60,
+  "temptation": 1.50,
+  "density": 0.8000,
+  "avg_compliance": 0.4156,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.4950
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.60,
+  "temptation": 1.70,
+  "density": 0.8000,
+  "avg_compliance": 0.3744,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.6500,
+  "avg_largest_cluster_frac": 0.5694
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.60,
+  "temptation": 2.00,
+  "density": 0.8000,
+  "avg_compliance": 0.4081,
+  "defector_percolation_prob": 0.3000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.5088
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.70,
+  "temptation": 1.10,
+  "density": 0.8000,
+  "avg_compliance": 0.3181,
+  "defector_percolation_prob": 0.3500,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.6606
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.70,
+  "temptation": 1.30,
+  "density": 0.8000,
+  "avg_compliance": 0.2800,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.6700
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.70,
+  "temptation": 1.50,
+  "density": 0.8000,
+  "avg_compliance": 0.2881,
+  "defector_percolation_prob": 0.2000,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.6575
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.70,
+  "temptation": 1.70,
+  "density": 0.8000,
+  "avg_compliance": 0.2950,
+  "defector_percolation_prob": 0.3000,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.6513
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.70,
+  "temptation": 2.00,
+  "density": 0.8000,
+  "avg_compliance": 0.2956,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.6669
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.80,
+  "temptation": 1.10,
+  "density": 0.8000,
+  "avg_compliance": 0.2031,
+  "defector_percolation_prob": 0.2000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.7775
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.80,
+  "temptation": 1.30,
+  "density": 0.8000,
+  "avg_compliance": 0.2006,
+  "defector_percolation_prob": 0.4000,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.7788
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.80,
+  "temptation": 1.50,
+  "density": 0.8000,
+  "avg_compliance": 0.1869,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.7888
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.80,
+  "temptation": 1.70,
+  "density": 0.8000,
+  "avg_compliance": 0.2094,
+  "defector_percolation_prob": 0.4000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.7738
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.80,
+  "temptation": 2.00,
+  "density": 0.8000,
+  "avg_compliance": 0.2081,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.7675
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.90,
+  "temptation": 1.10,
+  "density": 0.8000,
+  "avg_compliance": 0.1056,
+  "defector_percolation_prob": 0.4500,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.8856
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.90,
+  "temptation": 1.30,
+  "density": 0.8000,
+  "avg_compliance": 0.1081,
+  "defector_percolation_prob": 0.5500,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.8850
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.90,
+  "temptation": 1.50,
+  "density": 0.8000,
+  "avg_compliance": 0.1069,
+  "defector_percolation_prob": 0.6000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.8850
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.90,
+  "temptation": 1.70,
+  "density": 0.8000,
+  "avg_compliance": 0.0975,
+  "defector_percolation_prob": 0.3500,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.8975
+},
+{
+  "agent_count": 80,
+  "defector_ratio": 0.90,
+  "temptation": 2.00,
+  "density": 0.8000,
+  "avg_compliance": 0.1094,
+  "defector_percolation_prob": 0.3500,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.8719
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.10,
+  "temptation": 1.10,
+  "density": 0.9000,
+  "avg_compliance": 0.9106,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.0317
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.10,
+  "temptation": 1.30,
+  "density": 0.9000,
+  "avg_compliance": 0.9044,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.0344
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.10,
+  "temptation": 1.50,
+  "density": 0.9000,
+  "avg_compliance": 0.8989,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.0356
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.10,
+  "temptation": 1.70,
+  "density": 0.9000,
+  "avg_compliance": 0.9044,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.0350
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.10,
+  "temptation": 2.00,
+  "density": 0.9000,
+  "avg_compliance": 0.8883,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.0389
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.20,
+  "temptation": 1.10,
+  "density": 0.9000,
+  "avg_compliance": 0.7972,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.0833
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.20,
+  "temptation": 1.30,
+  "density": 0.9000,
+  "avg_compliance": 0.8006,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.0928
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.20,
+  "temptation": 1.50,
+  "density": 0.9000,
+  "avg_compliance": 0.8006,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.0822
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.20,
+  "temptation": 1.70,
+  "density": 0.9000,
+  "avg_compliance": 0.7989,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.0772
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.20,
+  "temptation": 2.00,
+  "density": 0.9000,
+  "avg_compliance": 0.8111,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6500,
+  "avg_largest_cluster_frac": 0.0906
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.30,
+  "temptation": 1.10,
+  "density": 0.9000,
+  "avg_compliance": 0.6928,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.1333
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.30,
+  "temptation": 1.30,
+  "density": 0.9000,
+  "avg_compliance": 0.6983,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.1794
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.30,
+  "temptation": 1.50,
+  "density": 0.9000,
+  "avg_compliance": 0.6944,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.6500,
+  "avg_largest_cluster_frac": 0.1650
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.30,
+  "temptation": 1.70,
+  "density": 0.9000,
+  "avg_compliance": 0.7117,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.1600
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.30,
+  "temptation": 2.00,
+  "density": 0.9000,
+  "avg_compliance": 0.6878,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.1456
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.40,
+  "temptation": 1.10,
+  "density": 0.9000,
+  "avg_compliance": 0.6044,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.2817
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.40,
+  "temptation": 1.30,
+  "density": 0.9000,
+  "avg_compliance": 0.6100,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.2650
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.40,
+  "temptation": 1.50,
+  "density": 0.9000,
+  "avg_compliance": 0.6011,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.6500,
+  "avg_largest_cluster_frac": 0.2572
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.40,
+  "temptation": 1.70,
+  "density": 0.9000,
+  "avg_compliance": 0.5844,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.2972
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.40,
+  "temptation": 2.00,
+  "density": 0.9000,
+  "avg_compliance": 0.6094,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.2633
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.50,
+  "temptation": 1.10,
+  "density": 0.9000,
+  "avg_compliance": 0.4956,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.6500,
+  "avg_largest_cluster_frac": 0.4050
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.50,
+  "temptation": 1.30,
+  "density": 0.9000,
+  "avg_compliance": 0.5328,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.3889
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.50,
+  "temptation": 1.50,
+  "density": 0.9000,
+  "avg_compliance": 0.5017,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.4178
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.50,
+  "temptation": 1.70,
+  "density": 0.9000,
+  "avg_compliance": 0.4978,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.3994
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.50,
+  "temptation": 2.00,
+  "density": 0.9000,
+  "avg_compliance": 0.4989,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.4139
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.60,
+  "temptation": 1.10,
+  "density": 0.9000,
+  "avg_compliance": 0.4089,
+  "defector_percolation_prob": 0.3000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.5472
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.60,
+  "temptation": 1.30,
+  "density": 0.9000,
+  "avg_compliance": 0.3994,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.5761
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.60,
+  "temptation": 1.50,
+  "density": 0.9000,
+  "avg_compliance": 0.3861,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.5628
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.60,
+  "temptation": 1.70,
+  "density": 0.9000,
+  "avg_compliance": 0.4006,
+  "defector_percolation_prob": 0.3000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.5500
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.60,
+  "temptation": 2.00,
+  "density": 0.9000,
+  "avg_compliance": 0.3867,
+  "defector_percolation_prob": 0.4000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.5833
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.70,
+  "temptation": 1.10,
+  "density": 0.9000,
+  "avg_compliance": 0.2933,
+  "defector_percolation_prob": 0.5000,
+  "geometric_percolation_prob": 0.6500,
+  "avg_largest_cluster_frac": 0.6944
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.70,
+  "temptation": 1.30,
+  "density": 0.9000,
+  "avg_compliance": 0.3217,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.6450
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.70,
+  "temptation": 1.50,
+  "density": 0.9000,
+  "avg_compliance": 0.3039,
+  "defector_percolation_prob": 0.6000,
+  "geometric_percolation_prob": 0.8000,
+  "avg_largest_cluster_frac": 0.6794
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.70,
+  "temptation": 1.70,
+  "density": 0.9000,
+  "avg_compliance": 0.3056,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.6361
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.70,
+  "temptation": 2.00,
+  "density": 0.9000,
+  "avg_compliance": 0.2933,
+  "defector_percolation_prob": 0.4000,
+  "geometric_percolation_prob": 0.7500,
+  "avg_largest_cluster_frac": 0.6639
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.80,
+  "temptation": 1.10,
+  "density": 0.9000,
+  "avg_compliance": 0.2039,
+  "defector_percolation_prob": 0.3000,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.7856
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.80,
+  "temptation": 1.30,
+  "density": 0.9000,
+  "avg_compliance": 0.1889,
+  "defector_percolation_prob": 0.3500,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.8056
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.80,
+  "temptation": 1.50,
+  "density": 0.9000,
+  "avg_compliance": 0.2028,
+  "defector_percolation_prob": 0.3500,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.7911
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.80,
+  "temptation": 1.70,
+  "density": 0.9000,
+  "avg_compliance": 0.1906,
+  "defector_percolation_prob": 0.5000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.8044
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.80,
+  "temptation": 2.00,
+  "density": 0.9000,
+  "avg_compliance": 0.2100,
+  "defector_percolation_prob": 0.5000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.7572
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.90,
+  "temptation": 1.10,
+  "density": 0.9000,
+  "avg_compliance": 0.0894,
+  "defector_percolation_prob": 0.6500,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.9072
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.90,
+  "temptation": 1.30,
+  "density": 0.9000,
+  "avg_compliance": 0.1006,
+  "defector_percolation_prob": 0.4000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.8928
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.90,
+  "temptation": 1.50,
+  "density": 0.9000,
+  "avg_compliance": 0.1017,
+  "defector_percolation_prob": 0.4500,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.8933
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.90,
+  "temptation": 1.70,
+  "density": 0.9000,
+  "avg_compliance": 0.0989,
+  "defector_percolation_prob": 0.7000,
+  "geometric_percolation_prob": 0.8000,
+  "avg_largest_cluster_frac": 0.8911
+},
+{
+  "agent_count": 90,
+  "defector_ratio": 0.90,
+  "temptation": 2.00,
+  "density": 0.9000,
+  "avg_compliance": 0.0928,
+  "defector_percolation_prob": 0.5500,
+  "geometric_percolation_prob": 0.6500,
+  "avg_largest_cluster_frac": 0.9044
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.10,
+  "temptation": 1.10,
+  "density": 1.0000,
+  "avg_compliance": 0.9035,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.7500,
+  "avg_largest_cluster_frac": 0.0355
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.10,
+  "temptation": 1.30,
+  "density": 1.0000,
+  "avg_compliance": 0.9005,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.8500,
+  "avg_largest_cluster_frac": 0.0305
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.10,
+  "temptation": 1.50,
+  "density": 1.0000,
+  "avg_compliance": 0.8930,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.0390
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.10,
+  "temptation": 1.70,
+  "density": 1.0000,
+  "avg_compliance": 0.9045,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.0335
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.10,
+  "temptation": 2.00,
+  "density": 1.0000,
+  "avg_compliance": 0.9070,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.0305
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.20,
+  "temptation": 1.10,
+  "density": 1.0000,
+  "avg_compliance": 0.8085,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.0860
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.20,
+  "temptation": 1.30,
+  "density": 1.0000,
+  "avg_compliance": 0.8075,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.0850
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.20,
+  "temptation": 1.50,
+  "density": 1.0000,
+  "avg_compliance": 0.8025,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.8000,
+  "avg_largest_cluster_frac": 0.0880
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.20,
+  "temptation": 1.70,
+  "density": 1.0000,
+  "avg_compliance": 0.8080,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.0845
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.20,
+  "temptation": 2.00,
+  "density": 1.0000,
+  "avg_compliance": 0.7945,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.0945
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.30,
+  "temptation": 1.10,
+  "density": 1.0000,
+  "avg_compliance": 0.6870,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.2005
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.30,
+  "temptation": 1.30,
+  "density": 1.0000,
+  "avg_compliance": 0.6850,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.8500,
+  "avg_largest_cluster_frac": 0.1525
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.30,
+  "temptation": 1.50,
+  "density": 1.0000,
+  "avg_compliance": 0.7045,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.1615
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.30,
+  "temptation": 1.70,
+  "density": 1.0000,
+  "avg_compliance": 0.7050,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.4500,
+  "avg_largest_cluster_frac": 0.1825
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.30,
+  "temptation": 2.00,
+  "density": 1.0000,
+  "avg_compliance": 0.7270,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.1615
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.40,
+  "temptation": 1.10,
+  "density": 1.0000,
+  "avg_compliance": 0.6185,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.5000,
+  "avg_largest_cluster_frac": 0.2740
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.40,
+  "temptation": 1.30,
+  "density": 1.0000,
+  "avg_compliance": 0.5970,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6500,
+  "avg_largest_cluster_frac": 0.2970
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.40,
+  "temptation": 1.50,
+  "density": 1.0000,
+  "avg_compliance": 0.6085,
+  "defector_percolation_prob": 0.0000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.3000
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.40,
+  "temptation": 1.70,
+  "density": 1.0000,
+  "avg_compliance": 0.6085,
+  "defector_percolation_prob": 0.0500,
+  "geometric_percolation_prob": 0.8000,
+  "avg_largest_cluster_frac": 0.3290
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.40,
+  "temptation": 2.00,
+  "density": 1.0000,
+  "avg_compliance": 0.5970,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.3130
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.50,
+  "temptation": 1.10,
+  "density": 1.0000,
+  "avg_compliance": 0.4975,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.4415
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.50,
+  "temptation": 1.30,
+  "density": 1.0000,
+  "avg_compliance": 0.5195,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.7500,
+  "avg_largest_cluster_frac": 0.3895
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.50,
+  "temptation": 1.50,
+  "density": 1.0000,
+  "avg_compliance": 0.4975,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.4635
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.50,
+  "temptation": 1.70,
+  "density": 1.0000,
+  "avg_compliance": 0.4970,
+  "defector_percolation_prob": 0.1000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.4700
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.50,
+  "temptation": 2.00,
+  "density": 1.0000,
+  "avg_compliance": 0.4965,
+  "defector_percolation_prob": 0.1500,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.4390
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.60,
+  "temptation": 1.10,
+  "density": 1.0000,
+  "avg_compliance": 0.4150,
+  "defector_percolation_prob": 0.3500,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.5580
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.60,
+  "temptation": 1.30,
+  "density": 1.0000,
+  "avg_compliance": 0.4140,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.6500,
+  "avg_largest_cluster_frac": 0.5705
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.60,
+  "temptation": 1.50,
+  "density": 1.0000,
+  "avg_compliance": 0.3810,
+  "defector_percolation_prob": 0.2000,
+  "geometric_percolation_prob": 0.4000,
+  "avg_largest_cluster_frac": 0.5840
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.60,
+  "temptation": 1.70,
+  "density": 1.0000,
+  "avg_compliance": 0.4000,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.6500,
+  "avg_largest_cluster_frac": 0.5705
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.60,
+  "temptation": 2.00,
+  "density": 1.0000,
+  "avg_compliance": 0.3900,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.5940
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.70,
+  "temptation": 1.10,
+  "density": 1.0000,
+  "avg_compliance": 0.2870,
+  "defector_percolation_prob": 0.3500,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.7035
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.70,
+  "temptation": 1.30,
+  "density": 1.0000,
+  "avg_compliance": 0.2920,
+  "defector_percolation_prob": 0.3500,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.6985
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.70,
+  "temptation": 1.50,
+  "density": 1.0000,
+  "avg_compliance": 0.3030,
+  "defector_percolation_prob": 0.3000,
+  "geometric_percolation_prob": 0.5500,
+  "avg_largest_cluster_frac": 0.6920
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.70,
+  "temptation": 1.70,
+  "density": 1.0000,
+  "avg_compliance": 0.3030,
+  "defector_percolation_prob": 0.4500,
+  "geometric_percolation_prob": 0.7500,
+  "avg_largest_cluster_frac": 0.6855
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.70,
+  "temptation": 2.00,
+  "density": 1.0000,
+  "avg_compliance": 0.2790,
+  "defector_percolation_prob": 0.5000,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.7120
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.80,
+  "temptation": 1.10,
+  "density": 1.0000,
+  "avg_compliance": 0.2070,
+  "defector_percolation_prob": 0.7000,
+  "geometric_percolation_prob": 0.8000,
+  "avg_largest_cluster_frac": 0.7880
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.80,
+  "temptation": 1.30,
+  "density": 1.0000,
+  "avg_compliance": 0.1955,
+  "defector_percolation_prob": 0.6000,
+  "geometric_percolation_prob": 0.6500,
+  "avg_largest_cluster_frac": 0.7930
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.80,
+  "temptation": 1.50,
+  "density": 1.0000,
+  "avg_compliance": 0.1925,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.3500,
+  "avg_largest_cluster_frac": 0.7930
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.80,
+  "temptation": 1.70,
+  "density": 1.0000,
+  "avg_compliance": 0.2175,
+  "defector_percolation_prob": 0.2500,
+  "geometric_percolation_prob": 0.7000,
+  "avg_largest_cluster_frac": 0.7760
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.80,
+  "temptation": 2.00,
+  "density": 1.0000,
+  "avg_compliance": 0.1995,
+  "defector_percolation_prob": 0.5500,
+  "geometric_percolation_prob": 0.7500,
+  "avg_largest_cluster_frac": 0.7920
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.90,
+  "temptation": 1.10,
+  "density": 1.0000,
+  "avg_compliance": 0.0965,
+  "defector_percolation_prob": 0.6500,
+  "geometric_percolation_prob": 0.7500,
+  "avg_largest_cluster_frac": 0.9010
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.90,
+  "temptation": 1.30,
+  "density": 1.0000,
+  "avg_compliance": 0.1075,
+  "defector_percolation_prob": 0.5500,
+  "geometric_percolation_prob": 0.8000,
+  "avg_largest_cluster_frac": 0.8885
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.90,
+  "temptation": 1.50,
+  "density": 1.0000,
+  "avg_compliance": 0.0925,
+  "defector_percolation_prob": 0.7000,
+  "geometric_percolation_prob": 0.8000,
+  "avg_largest_cluster_frac": 0.9010
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.90,
+  "temptation": 1.70,
+  "density": 1.0000,
+  "avg_compliance": 0.0935,
+  "defector_percolation_prob": 0.6000,
+  "geometric_percolation_prob": 0.6500,
+  "avg_largest_cluster_frac": 0.9060
+},
+{
+  "agent_count": 100,
+  "defector_ratio": 0.90,
+  "temptation": 2.00,
+  "density": 1.0000,
+  "avg_compliance": 0.0890,
+  "defector_percolation_prob": 0.6000,
+  "geometric_percolation_prob": 0.6000,
+  "avg_largest_cluster_frac": 0.9090
+}]}
